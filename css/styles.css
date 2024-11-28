@@ -563,7 +563,7 @@ a {
   background: #fcfcfc;
 }
 
-.modal-button {
+.modal-buttonclose {
   display: flex;
   position: absolute;
   padding: 0;
@@ -581,12 +581,12 @@ a {
   background-color: #e7e9fc;
 }
 
-.modal-button:hover .modal-iconclose {
+.modal-buttonclose:hover .modal-iconclose {
   border: none;
   background-color: #404bbf;
 }
 
-.modal-button:focus .modal-iconclose {
+.modal-buttonclose:focus .modal-iconclose {
   background-color: #404bbf;
   border: none;
 }
