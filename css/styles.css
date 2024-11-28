@@ -582,7 +582,7 @@ a {
 }
 
 .modal-buttonclose:hover,
-.modal-buttonclose:focus {
+.modal-buttonclose:active {
   border: none;
   background-color: #404bbf;
 }
