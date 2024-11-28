@@ -581,12 +581,12 @@ a {
   background-color: #e7e9fc;
 }
 
-.modal-button:hover {
+.modal-button:hover .modal-iconclose {
   border: none;
   background-color: #404bbf;
 }
 
-.modal-button:focus {
+.modal-button:focus .modal-iconclose {
   background-color: #404bbf;
   border: none;
 }
@@ -598,4 +598,14 @@ a {
 .modal-iconclose:hover,
 .modal-iconclose:focus {
   fill: #ffffff;
+}
+
+.test {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
