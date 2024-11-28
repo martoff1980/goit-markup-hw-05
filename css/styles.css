@@ -492,7 +492,7 @@ a {
   color: #ffffff;
 }
 
-.form {
+.sendform {
   display: flex;
   gap: 24px;
 }
@@ -513,4 +513,26 @@ a {
 
 .input-sendform::placeholder {
   color: #ffffff;
+}
+
+.button-sendform {
+  display: flex;
+  min-width: 165px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.icon-button {
+  margin-left: 16px;
 }
