@@ -693,7 +693,7 @@ a {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-
+/* visually-hidden */
 .modal-policyspan {
   display: inline-flex;
   width: 16px;
