@@ -669,3 +669,11 @@ a {
   background-color: transparent;
   color: rgba(46, 47, 66, 0.4);
 }
+
+.modal-policy {
+  margin-bottom: 24px;
+}
+
+.modal-checkbox {
+  /* visually-hidden ; */
+}
