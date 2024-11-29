@@ -674,6 +674,10 @@ a {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-textarea:focus {
+  border-color: #4d5ae5;
+}
+
 .modal-policy {
   margin-bottom: 24px;
 }
