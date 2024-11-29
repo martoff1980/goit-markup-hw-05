@@ -642,6 +642,10 @@ a {
   border-color: #4d5ae5;
 }
 
+.modal-input:focus + .modal-icon {
+  fill: #4d5ae5;
+}
+
 .modal-icon {
   position: absolute;
   left: 16px;
