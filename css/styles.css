@@ -682,6 +682,11 @@ a {
   margin-bottom: 24px;
 }
 
+.modal-checkbox:checked + .modal-policyspan {
+  border: none;
+  background-color: #404bbf;
+}
+
 .modal-policylabel {
   font-size: 12px;
   line-height: 1.17;
@@ -701,6 +706,10 @@ a {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.madal-policylink {
+  color: #4d5ae5;
 }
 
 .modal-buttonsender {
