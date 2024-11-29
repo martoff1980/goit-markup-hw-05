@@ -495,7 +495,12 @@
           <div class="modal-region">
             <label class="modal-label" for="user-name">Name</label>
             <div class="modal-inputdata">
-              <input class="modal-input" id="user-name" type="text" />
+              <input
+                class="modal-input"
+                id="user-name"
+                name="user-name"
+                type="text"
+              />
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user-1"></use>
               </svg>
@@ -530,20 +535,19 @@
           </div>
           <div class="modal-policy">
             <input
-              class="modal-checkbox"
+              class="modal-checkbox visually-hidden"
               id="user-privacy"
               type="checkbox"
               value="true"
               name="user-privacy"
             />
             <label class="modal-policylabel">
-              I accept the terms and conditions of the
               <span class="modal-policyspan">
                 <svg class="modal-policyicon" width="10" height="8">
                   <use href=""></use>
                 </svg>
-                Policy
               </span>
+              I accept the terms and conditions of the Privacy Policy
             </label>
           </div>
           <div class="modal-sender">
