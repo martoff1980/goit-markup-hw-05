@@ -638,7 +638,7 @@ a {
   background-color: transparent;
 }
 
-.modal-input:focus .modal-icon {
+.modal-input:focus {
   border-color: #4d5ae5;
 }
 
