@@ -595,8 +595,8 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-iconclose:hover,
-.modal-iconclose:focus {
+.modal-buttonclose:hover .modal-iconclose:hover,
+.modal-buttonclose:focus .modal-iconclose:focus {
   fill: #ffffff;
 }
 
