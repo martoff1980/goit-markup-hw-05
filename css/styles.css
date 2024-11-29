@@ -610,11 +610,11 @@ a {
   color: #2e2f42;
 }
 
-.user-region {
+.modal-region {
   margin-bottom: 8px;
 }
 
-.user-label {
+.modal-label {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
@@ -623,11 +623,11 @@ a {
   color: #8e8f99;
 }
 
-.user-inputdata {
+.modal-inputdata {
   position: relative;
 }
 
-.user-inputname {
+.modal-input {
   padding-left: 38px;
   width: 100%;
   height: 40px;
@@ -638,18 +638,14 @@ a {
   background-color: transparent;
 }
 
-.user-inputname:focus {
+.modal-input:focus .modal-icon {
   border-color: #4d5ae5;
 }
 
-.user-icon {
+.modal-icon {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.user-icon:focus {
-  fill: #4d5ae5;
 }
