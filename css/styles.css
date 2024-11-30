@@ -686,19 +686,10 @@ a {
 }
 
 .modal-checkbox[type='checkbox']:checked + .modal-policylabel span {
-  /* background-color: red; */
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
 }
-
-/* .modal-policylabel:active .modal-policyicon {
-  background-color: red;
-} */
-/* .modal-checkbox:checked + .modal-policyspan {
-  border: none;
-  background-color: #404bbf;
-} */
 
 .modal-policylabel {
   font-size: 12px;
@@ -706,6 +697,7 @@ a {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
+
 /* visually-hidden */
 .modal-policyspan {
   display: inline-flex;
