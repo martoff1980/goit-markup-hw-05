@@ -486,6 +486,9 @@ a {
 .footer-socialmediaicon {
   fill: #f4f4fd;
 }
+.footer-form {
+  margin: 0 auto;
+}
 
 .subscribe {
   margin-bottom: 16px;
